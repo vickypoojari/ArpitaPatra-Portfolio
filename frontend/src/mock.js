@@ -102,6 +102,17 @@ export const portfolioData = {
       "Research: UserTesting, Dovetail, Typeform"
     ]
   },
+  experience: {
+    headline: "Experience highlights",
+    items: [
+      "Led 4 major product releases from planning through launch, coordinating 3-5 engineers and 1-2 designers per project",
+      "Managed stakeholder communication for C-suite executives, translating technical constraints into business language",
+      "Reduced sprint planning time by 40% by implementing structured backlog refinement and story estimation workflows",
+      "Shipped features that increased user activation by 145% and enterprise contract renewals by 21 percentage points",
+      "Ran weekly sprint reviews and retrospectives with distributed teams across 3 time zones",
+      "Conducted 50+ user interviews to validate feature requests and identify high-impact improvements"
+    ]
+  },
   contact: {
     email: "alex.morgan@email.com",
     linkedin: "linkedin.com/in/alexmorgan",
