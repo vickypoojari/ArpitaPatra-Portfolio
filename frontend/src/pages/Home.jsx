@@ -3,6 +3,7 @@ import Navigation from '../components/portfolio/Navigation';
 import Hero from '../components/portfolio/Hero';
 import About from '../components/portfolio/About';
 import FeaturedWork from '../components/portfolio/FeaturedWork';
+import Experience from '../components/portfolio/Experience';
 import Skills from '../components/portfolio/Skills';
 import Contact from '../components/portfolio/Contact';
 import Footer from '../components/portfolio/Footer';
@@ -26,6 +27,8 @@ const Home = () => {
         <About about={portfolioData.about} />
         
         <FeaturedWork caseStudies={portfolioData.caseStudies} />
+        
+        <Experience experience={portfolioData.experience} />
         
         <Skills skills={portfolioData.skills} />
         
