@@ -4,12 +4,12 @@ export const portfolioData = {
   hero: {
     name: "Alex Morgan",
     title: "Product Manager",
-    tagline: "Building 0→1 products that solve real problems and drive measurable impact",
+    tagline: "I ship software that teams adopt and customers pay for",
     cta: "View Case Studies"
   },
   about: {
-    headline: "Product thinking meets execution",
-    description: "I build products by deeply understanding user pain points, validating hypotheses through data, and working cross-functionally to ship solutions that move key metrics. My approach combines strategic thinking with hands-on execution—from customer discovery to launch and iteration.",
+    headline: "What I do",
+    description: "I manage product roadmaps from discovery through launch, working with engineering, design, and business teams to deliver features that move revenue and retention metrics. I've led releases for enterprise SaaS platforms, mobile apps, and internal tools—managing backlogs, running sprints, and making scope calls when timelines compress. I focus on shipping incremental value while keeping stakeholders aligned on what's next and why it matters.",
     yearsExperience: "5+",
     productsShipped: "12+",
     usersImpacted: "2M+"
