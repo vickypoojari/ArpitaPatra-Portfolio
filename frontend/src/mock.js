@@ -81,25 +81,25 @@ export const portfolioData = {
   ],
   skills: {
     productAreas: [
-      "0→1 Product Development",
-      "Growth & Retention",
-      "B2B SaaS & Enterprise",
-      "Consumer Mobile Apps",
-      "AI/ML Product Strategy"
+      "Roadmap planning and prioritization",
+      "Cross-functional team leadership",
+      "Stakeholder management and alignment",
+      "Product launches and go-to-market",
+      "Feature scoping and trade-off decisions"
     ],
     methodologies: [
-      "User Research & Discovery",
-      "Data-Driven Decision Making",
-      "A/B Testing & Experimentation",
-      "Agile/Scrum",
-      "OKRs & Roadmapping"
+      "Agile/Scrum sprint planning",
+      "User interviews and feedback synthesis",
+      "Backlog grooming and story writing",
+      "A/B testing and experiment design",
+      "OKR setting and metric tracking"
     ],
     tools: [
-      "Analytics: Mixpanel, Amplitude, Google Analytics",
-      "Design: Figma, Miro, FigJam",
-      "Development: SQL, Python (basic), Git",
-      "Project Management: Jira, Linear, Notion",
-      "Research: UserTesting, Dovetail"
+      "Project Management: Jira, Asana, Linear, Notion",
+      "Analytics: Mixpanel, Amplitude, Google Analytics, SQL",
+      "Design Collaboration: Figma, Miro, FigJam",
+      "Communication: Slack, Confluence, Loom",
+      "Research: UserTesting, Dovetail, Typeform"
     ]
   },
   contact: {
