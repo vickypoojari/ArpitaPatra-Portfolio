@@ -1,122 +1,137 @@
-// Mock data for Product Manager Portfolio
+// Portfolio data populated from Arpita Patra's resume
 
 export const portfolioData = {
   hero: {
-    name: "Alex Morgan",
-    title: "Product Manager",
-    tagline: "I ship software that teams adopt and customers pay for",
+    name: "Arpita Patra",
+    title: "Product Manager | Delivery Manager | Scrum Master",
+    tagline:
+      "Building and scaling products from 0→1 and 1→10 with strong delivery governance and measurable business impact",
     cta: "View Case Studies"
   },
+
   about: {
     headline: "What I do",
-    description: "I manage product roadmaps from discovery through launch, working with engineering, design, and business teams to deliver features that move revenue and retention metrics. I've led releases for enterprise SaaS platforms, mobile apps, and internal tools—managing backlogs, running sprints, and making scope calls when timelines compress. I focus on shipping incremental value while keeping stakeholders aligned on what's next and why it matters.",
-    yearsExperience: "5+",
-    productsShipped: "12+",
-    usersImpacted: "2M+"
+    description:
+      "Product, Delivery, and Agile professional with 6.4+ years of experience across Hospitality, Food Tech, SaaS, and B2B/B2C domains. I specialize in owning product strategy and roadmaps, leading 0→1 launches, scaling products globally, and driving enterprise-scale delivery programs. I work closely with engineering, design, sales, and leadership teams to ship incremental value while managing risk, dependencies, and stakeholder expectations.",
+    yearsExperience: "6.4+",
+    productsShipped: "10+",
+    usersImpacted: "Global (APAC, US, UK, India)"
   },
+
   caseStudies: [
     {
       id: 1,
-      company: "TechCorp",
-      title: "Analytics Dashboard Redesign",
-      role: "Lead Product Manager",
-      timeline: "6 months · 2023",
-      problem: "Users struggled to extract insights from complex data, leading to 40% dashboard abandonment rate and low product adoption among enterprise clients.",
+      company: "SmartQ (Compass Group)",
+      title: "Global Food Tech Platform – Product Launch & Scale",
+      role: "Product Manager",
+      timeline: "Apr 2023 – Sep 2025",
+      problem:
+        "Need for a scalable digital food-tech platform to support global enterprise clients with improved adoption, analytics-driven decisions, and operational efficiency.",
       approach: [
-        "Conducted 25+ user interviews with data analysts and business stakeholders",
-        "Analyzed user behavior data to identify friction points in the current flow",
-        "Collaborated with design to create intuitive visualization library",
-        "Led iterative beta testing with 5 enterprise customers"
+        "Led product vision and roadmap from 0→1 launch to 1→10 scale",
+        "Owned discovery, PRDs, backlog prioritization, and release planning",
+        "Defined and tracked KPIs including activation, retention, and feature adoption",
+        "Collaborated with 43+ cross-functional team members across engineering, design, sales, and marketing",
+        "Ran A/B experiments to improve UX and conversion"
       ],
       impact: [
-        "Reduced time-to-insight by 60% (from 15min to 6min average)",
-        "Increased dashboard engagement by 85%",
-        "Improved enterprise renewal rate from 68% to 89%",
-        "Drove $2.3M in annual recurring revenue"
+        "Achieved ~75% user adoption within first 6 months",
+        "Improved user engagement by ~30%",
+        "Delivered ~20% improvement in conversion metrics through experimentation",
+        "Successfully supported global clients across APAC, US, UK, and India"
       ],
-      tags: ["B2B SaaS", "Data Analytics", "Enterprise"]
+      tags: ["Product Strategy", "0→1 Launch", "SaaS", "Food Tech", "Global Scale"]
     },
+
     {
       id: 2,
-      company: "FinanceApp",
-      title: "Mobile Onboarding Flow",
-      role: "Product Manager",
-      timeline: "4 months · 2022",
-      problem: "New user activation was at 22%, well below industry benchmark of 40%. Users cited confusion during signup and lack of immediate value as primary concerns.",
+      company: "SmartQ",
+      title: "Agile Delivery & Release Optimization",
+      role: "Associate Product Manager",
+      timeline: "Apr 2022 – Mar 2023",
+      problem:
+        "Sprint predictability issues, high carryover stories, and post-release defects impacting delivery timelines and stakeholder confidence.",
       approach: [
-        "Mapped user journey and identified drop-off points through funnel analysis",
-        "Prototyped 3 onboarding variations and ran A/B tests",
-        "Reduced required fields from 12 to 4 in initial signup",
-        "Introduced progressive disclosure and contextual guidance"
+        "Owned and groomed product backlog in Azure DevOps",
+        "Led sprint planning, backlog refinement, and release coordination",
+        "Improved acceptance criteria and deployment validation processes",
+        "Facilitated roadmap tracking and risk identification sessions"
       ],
       impact: [
-        "Increased activation rate from 22% to 54% (+145%)",
-        "Reduced signup time from 8min to 2min average",
-        "Boosted D7 retention by 31%",
-        "Added 45K monthly active users"
+        "Improved sprint predictability and on-time delivery by ~25%",
+        "Reduced carryover stories by ~20%",
+        "Achieved ~99% go-live success rate",
+        "Reduced post-release defects by ~30%"
       ],
-      tags: ["Mobile", "Fintech", "Growth"]
+      tags: ["Agile Delivery", "Scrum", "Backlog Management", "Release Planning"]
     },
+
     {
       id: 3,
-      company: "HealthTech",
-      title: "AI-Powered Symptom Checker",
-      role: "Senior Product Manager",
-      timeline: "8 months · 2024",
-      problem: "Patients often delayed seeking care due to uncertainty about symptom severity. Existing symptom checkers had low accuracy (62%) and poor user trust.",
+      company: "Capgemini",
+      title: "Enterprise Digital Transformation Programs",
+      role: "Delivery Manager / Scrum Master",
+      timeline: "Jul 2019 – Apr 2022",
+      problem:
+        "Complex enterprise programs with distributed teams, multiple vendors, scope creep, and delivery risks across global clients.",
       approach: [
-        "Partnered with medical advisors to define clinical accuracy requirements",
-        "Designed conversational UI that balanced thoroughness with brevity",
-        "Built feedback loop to continuously improve ML model accuracy",
-        "Launched phased rollout starting with low-risk conditions"
+        "Owned end-to-end delivery including planning, execution, and governance",
+        "Led distributed teams across India, US, UK, and Philippines",
+        "Implemented milestone planning, SLA/TAT tracking, and executive reporting",
+        "Coached teams on Agile practices and removed delivery impediments",
+        "Introduced structured change control and dependency management"
       ],
       impact: [
-        "Achieved 89% clinical accuracy (vs 62% baseline)",
-        "Served 500K+ symptom checks in first 6 months",
-        "Increased telehealth booking rate by 42%",
-        "Featured in TechCrunch and Healthcare Innovation Journal"
+        "Reduced scope creep by ~72%",
+        "Improved sprint velocity and predictability by ~20–25%",
+        "Reduced unplanned work and delivery risks by ~30%",
+        "Ensured consistent delivery alignment with business and contractual goals"
       ],
-      tags: ["Healthcare", "AI/ML", "Consumer"]
+      tags: ["Enterprise Delivery", "Scrum Master", "Agile Transformation", "B2B"]
     }
   ],
+
   skills: {
     productAreas: [
-      "Roadmap planning and prioritization",
-      "Cross-functional team leadership",
-      "Stakeholder management and alignment",
-      "Product launches and go-to-market",
-      "Feature scoping and trade-off decisions"
+      "Product strategy and roadmap ownership",
+      "0→1 product launches and scaling",
+      "Feature prioritization and trade-off decisions",
+      "Stakeholder and C-level communication",
+      "Product analytics and KPI tracking"
     ],
     methodologies: [
-      "Agile/Scrum sprint planning",
-      "User interviews and feedback synthesis",
-      "Backlog grooming and story writing",
-      "A/B testing and experiment design",
-      "OKR setting and metric tracking"
+      "Agile / Scrum",
+      "Sprint and release planning",
+      "User research and discovery",
+      "A/B testing and experimentation",
+      "OKRs and outcome tracking"
     ],
     tools: [
-      "Project Management: Jira, Asana, Linear, Notion",
-      "Analytics: Mixpanel, Amplitude, Google Analytics, SQL",
-      "Design Collaboration: Figma, Miro, FigJam",
-      "Communication: Slack, Confluence, Loom",
-      "Research: UserTesting, Dovetail, Typeform"
+      "Product & Delivery: Azure DevOps, Jira, Confluence, Notion",
+      "Design & Collaboration: Figma, Miro, Whimsical",
+      "Analytics: Power BI, Looker Studio, Firebase Analytics",
+      "ITSM & Delivery: ServiceNow, ITIL",
+      "Productivity: MS Excel, PowerPoint, Copilot, ChatGPT, Cursor"
     ]
   },
+
   experience: {
     headline: "Experience highlights",
     items: [
-      "Led 4 major product releases from planning through launch, coordinating 3-5 engineers and 1-2 designers per project",
-      "Managed stakeholder communication for C-suite executives, translating technical constraints into business language",
-      "Reduced sprint planning time by 40% by implementing structured backlog refinement and story estimation workflows",
-      "Shipped features that increased user activation by 145% and enterprise contract renewals by 21 percentage points",
-      "Ran weekly sprint reviews and retrospectives with distributed teams across 3 time zones",
-      "Conducted 50+ user interviews to validate feature requests and identify high-impact improvements"
+      "Led global product strategy and delivery with cross-functional teams of 40+ members",
+      "Managed enterprise-scale delivery programs across APAC, US, UK, and India",
+      "Improved user adoption, engagement, and conversion through data-driven decisions",
+      "Reduced scope creep, delivery risks, and post-release defects through strong governance",
+      "Facilitated Agile ceremonies and coached teams to become high-performing and self-organizing",
+      "Presented roadmaps, demos, and delivery updates to C-level executives and clients"
     ]
   },
-  contact: {
-    email: "alex.morgan@email.com",
-    linkedin: "linkedin.com/in/alexmorgan",
-    twitter: "@alexmorgan",
-    resumeUrl: "#"
-  }
+
+contact: {
+  email: "arpita.patra1804@gmail.com",
+  linkedin: "linkedin.com/in/arpita-patra",
+  twitter: "", // ✅ add this
+  location: "Mumbai, India",
+  resumeUrl: "#"
+}
 };

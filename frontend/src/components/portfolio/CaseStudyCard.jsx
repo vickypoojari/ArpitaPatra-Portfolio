@@ -23,7 +23,7 @@ const CaseStudyCard = ({ study }) => {
         
         {/* Header */}
         <div className="mb-4">
-          <h3 className="text-2xl font-bold mb-2">{study.title}</h3>
+          <h3 className="text-2xl font-bold mb-2 text-gray-100">{study.title}</h3>
           <div className="flex items-center gap-4 text-sm text-gray-400">
             <span>{study.company}</span>
             <span aria-hidden="true">•</span>
