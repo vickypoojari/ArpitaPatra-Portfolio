@@ -129,7 +129,7 @@ export const portfolioData = {
 
 contact: {
   email: "arpita.patra1804@gmail.com",
-  linkedin: "linkedin.com/in/arpita-patra",
+  linkedin: "linkedin.com/in/buildwitharpita/",
   twitter: "", // ✅ add this
   location: "Mumbai, India",
   resumeUrl: "#"
